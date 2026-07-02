@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Main.qml</file>
+        <file>pages/RemotePage.qml</file>
+        <file>backend/AjaxController.qml</file>
+        <file>backend/QrCode.js</file>
+        <file alias="backend/qrcode-generator.js">../third_party/qrcode-generator/qrcode.js</file>
+    </qresource>
+</RCC>

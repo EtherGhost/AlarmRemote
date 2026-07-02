@@ -1,0 +1,12 @@
+build/
+build-test/
+.clickable/
+.idea/
+research/
+release-assets/
+*.click
+*.user
+*.qmlc
+*.jsc
+.env*
+!.env.example

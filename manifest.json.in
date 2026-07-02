@@ -1,0 +1,15 @@
+{
+    "name": "ajaxremote.cloudsite",
+    "description": "Simple Ubuntu Touch remote control for an Ajax alarm system.",
+    "architecture": "$ENV{ARCH}",
+    "title": "Alarm Remote",
+    "hooks": {
+        "ajaxremote": {
+            "apparmor": "ajaxremote.apparmor",
+            "desktop": "ajaxremote.desktop"
+        }
+    },
+    "version": "@AJAXREMOTE_VERSION@",
+    "maintainer": "Etherghost <noreply@cloudsite.se>",
+    "framework": "$ENV{CLICK_FRAMEWORK}"
+}

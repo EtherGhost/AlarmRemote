@@ -1,0 +1,7 @@
+clickable_minimum_required: 8.8.0
+builder: cmake
+kill: ajaxremote
+scripts:
+  desktop-large: ~/.local/bin/clickable desktop --arch amd64
+  desktop-dark: scripts/desktop-dark.sh
+  install-device: scripts/install-device.sh
