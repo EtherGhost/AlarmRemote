@@ -2,7 +2,7 @@
 
 Alarm Remote is a minimal native Ubuntu Touch remote control for an Ajax alarm system.
 
-The app is intentionally small: it focuses on the everyday alarm actions and avoids background services, push notifications, room/device management, and advanced settings.
+The app is intentionally small: it focuses on everyday alarm actions and keeps background services, push notifications, room/device management, and settings work out of scope until the private Ajax API behavior is proven safely.
 
 ## Features
 
@@ -12,14 +12,19 @@ The app is intentionally small: it focuses on the everyday alarm actions and avo
 - Current alarm status display.
 - Arm, disarm, and night mode commands.
 - Panic command guarded by long-press and confirmation.
+- Messages/event log view with category tabs.
+- Rooms and devices list.
+- Read-only device details for the Ajax fields currently decoded by the app.
+- Foreground alarm sounds with English voice prompts for panic, intrusion, and fire events.
 - Pull-to-refresh and periodic status refresh.
-- Minimal AppArmor permissions: networking only.
+- Minimal AppArmor permissions: networking and audio playback.
 
 ## Important Limitations
 
 - Ajax does not provide a public consumer API for this use case. This app uses private/undocumented Ajax API behavior discovered through research and live testing on the author's own system.
 - Ajax may change login, status, or command behavior at any time.
-- Messages/event log fetching is not implemented yet.
+- Device setting edit mode is present, but setting writes are not implemented yet.
+- Some device fields depend on private Ajax device-specific protobuf parts. Unknown fields are shown as unavailable or disabled.
 - Session refresh/lifetime behavior is not fully documented.
 - Session material is stored in app-private protected local storage, not in a hardware-backed keychain.
 
@@ -61,5 +66,5 @@ To install over an existing build while preserving app data/session state:
 ## Verification
 
 - `clickable build --arch amd64`: pass, click review pass.
-- `clickable build --arch arm64`: pass, click review pass.
-- `~/.local/bin/clickable install --arch arm64 --skip-uninstall`: pass on a connected Ubuntu Touch device.
+- `scripts/install-device.sh`: pass for `ajaxremote.cloudsite_0.2.0_arm64.click` on a connected Ubuntu Touch device.
+- Foreground alarm sound playback: verified on the connected Ubuntu Touch device.

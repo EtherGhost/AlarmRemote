@@ -11,7 +11,7 @@ find_package(Qt5Quick REQUIRED)
 
 set(PROJECT_NAME "ajaxremote")
 set(FULL_PROJECT_NAME "ajaxremote.cloudsite")
-set(AJAXREMOTE_VERSION "0.1.0")
+set(AJAXREMOTE_VERSION "0.2.0")
 set(DATA_DIR /)
 set(DESKTOP_FILE_NAME ${PROJECT_NAME}.desktop)
 
@@ -19,6 +19,14 @@ configure_file(manifest.json.in ${CMAKE_CURRENT_BINARY_DIR}/manifest.json @ONLY)
 install(FILES ${CMAKE_CURRENT_BINARY_DIR}/manifest.json DESTINATION ${CMAKE_INSTALL_PREFIX})
 install(FILES ${PROJECT_NAME}.apparmor DESTINATION ${DATA_DIR})
 install(FILES assets/logo.svg DESTINATION assets)
+install(FILES
+    assets/sounds/fire.ogg
+    assets/sounds/fire.wav
+    assets/sounds/intrusion.ogg
+    assets/sounds/intrusion.wav
+    assets/sounds/panic.ogg
+    assets/sounds/panic.wav
+    DESTINATION assets/sounds)
 
 qt5_add_resources(QT_RESOURCES qml/qml.qrc assets/assets.qrc)
 

@@ -33,6 +33,7 @@ int main(int argc, char *argv[])
     QQuickView view;
     view.engine()->addImportPath(QStringLiteral("qrc:/qml"));
     view.rootContext()->setContextProperty(QStringLiteral("ajaxRemoteAppVersion"), QStringLiteral(AJAXREMOTE_VERSION));
+    view.rootContext()->setContextProperty(QStringLiteral("ajaxRemoteInstallDir"), QCoreApplication::applicationDirPath());
     view.rootContext()->setContextProperty(QStringLiteral("desktopLarge"), desktopLarge);
     view.rootContext()->setContextProperty(QStringLiteral("desktopDarkMode"),
         desktopLarge && !qEnvironmentVariableIsSet("AJAXREMOTE_DESKTOP_LIGHT_MODE"));

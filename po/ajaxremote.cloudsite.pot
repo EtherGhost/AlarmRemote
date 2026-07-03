@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ajaxremote.cloudsite\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 10:49+0000\n"
+"POT-Creation-Date: 2026-07-03 09:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: qml/backend/AjaxController.qml:8 qml/backend/AjaxController.qml:118
-#: qml/backend/AjaxController.qml:358
+#: qml/backend/AjaxController.qml:8 qml/backend/AjaxController.qml:149
+#: qml/backend/AjaxController.qml:427
 msgid "Not connected"
 msgstr ""
 
-#: qml/backend/AjaxController.qml:9 qml/backend/AjaxController.qml:359
+#: qml/backend/AjaxController.qml:9 qml/backend/AjaxController.qml:428
 msgid "Not authenticated"
 msgstr ""
 
@@ -30,435 +30,660 @@ msgstr ""
 msgid "Not connected."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:83
+#: qml/backend/AjaxController.qml:50
+msgid "All"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:51
+msgid "Alarms"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:52
+msgid "Malfunctions"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:53
+msgid "Arming modes"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:117
 msgid "Scan QR in Ajax app"
 msgstr ""
 
-#: qml/backend/AjaxController.qml:84 qml/backend/AjaxController.qml:182
+#: qml/backend/AjaxController.qml:118 qml/backend/AjaxController.qml:240
 msgid "QR login pending"
 msgstr ""
 
-#: qml/backend/AjaxController.qml:85
+#: qml/backend/AjaxController.qml:119
 msgid "Waiting for approval in official Ajax app"
 msgstr ""
 
-#: qml/backend/AjaxController.qml:86
+#: qml/backend/AjaxController.qml:120
 msgid "QR session created. Scan it from an already logged-in Ajax app."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:87 qml/backend/AjaxController.qml:107
-#: qml/backend/AjaxController.qml:110 qml/backend/AjaxController.qml:121
-#: qml/backend/AjaxController.qml:141 qml/backend/AjaxController.qml:218
-#: qml/backend/AjaxController.qml:220 qml/backend/AjaxController.qml:280
-#: qml/backend/AjaxController.qml:321 qml/backend/AjaxController.qml:333
-#: qml/backend/AjaxController.qml:361 qml/backend/AjaxController.qml:476
-msgid "Login"
-msgstr ""
-
-#: qml/backend/AjaxController.qml:87
-msgid "QR session created. Waiting for approval."
-msgstr ""
-
-#: qml/backend/AjaxController.qml:92
+#: qml/backend/AjaxController.qml:125
 msgid "Approved"
 msgstr ""
 
-#: qml/backend/AjaxController.qml:101
+#: qml/backend/AjaxController.qml:134
 msgid "Ajax session"
 msgstr ""
 
-#: qml/backend/AjaxController.qml:103 qml/backend/AjaxController.qml:118
-#: qml/backend/AjaxController.qml:274
+#: qml/backend/AjaxController.qml:136 qml/backend/AjaxController.qml:149
+#: qml/backend/AjaxController.qml:332
 msgid "Connected"
 msgstr ""
 
-#: qml/backend/AjaxController.qml:104
+#: qml/backend/AjaxController.qml:137
 msgid "QR session active. Discovering Ajax space."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:106
+#: qml/backend/AjaxController.qml:139
 msgid "QR login approved and saved. Looking up Ajax space."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:107
-msgid "QR login approved. Session token saved locally."
-msgstr ""
-
-#: qml/backend/AjaxController.qml:109 qml/backend/AjaxController.qml:110
+#: qml/backend/AjaxController.qml:141
 msgid "QR login approved, but local session storage failed."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:119
+#: qml/backend/AjaxController.qml:150
 msgid "QR login failed"
 msgstr ""
 
-#: qml/backend/AjaxController.qml:139
+#: qml/backend/AjaxController.qml:169
 msgid "Using Ajax space: %1."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:140 qml/backend/AjaxController.qml:141
+#: qml/backend/AjaxController.qml:170
 msgid "Ajax space ready: %1."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:151
+#: qml/backend/AjaxController.qml:183
 msgid "Status updated."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:151 qml/backend/AjaxController.qml:458
+#: qml/backend/AjaxController.qml:183 qml/backend/AjaxController.qml:1086
 msgid "Status updated: %1."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:160
-msgid "%1 succeeded."
-msgstr ""
-
-#: qml/backend/AjaxController.qml:161
-msgid "%1 succeeded for %2."
-msgstr ""
-
-#: qml/backend/AjaxController.qml:161
-msgid "Now"
-msgstr ""
-
-#: qml/backend/AjaxController.qml:174
+#: qml/backend/AjaxController.qml:184 qml/backend/AjaxController.qml:194
+#: qml/backend/AjaxController.qml:207 qml/backend/AjaxController.qml:447
+#: qml/pages/RemotePage.qml:1832
 msgid "Ajax"
 msgstr ""
 
-#: qml/backend/AjaxController.qml:180
+#: qml/backend/AjaxController.qml:193
+msgid "%1 succeeded."
+msgstr ""
+
+#: qml/backend/AjaxController.qml:194
+msgid "%1 succeeded for %2."
+msgstr ""
+
+#: qml/backend/AjaxController.qml:231 qml/backend/AjaxController.qml:617
+msgid "Alarm event received."
+msgstr ""
+
+#: qml/backend/AjaxController.qml:238
 msgid "Creating QR session"
 msgstr ""
 
-#: qml/backend/AjaxController.qml:183
+#: qml/backend/AjaxController.qml:241
 msgid "Opening Ajax QR session"
 msgstr ""
 
-#: qml/backend/AjaxController.qml:184
+#: qml/backend/AjaxController.qml:242
 msgid "Creating QR login session with Ajax."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:197
+#: qml/backend/AjaxController.qml:255
 msgid "Completion blocked"
 msgstr ""
 
-#: qml/backend/AjaxController.qml:198
+#: qml/backend/AjaxController.qml:256
 msgid "QR completion endpoint is unknown. No Ajax session was stored."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:218
+#: qml/backend/AjaxController.qml:276
 msgid "Stored session migrated to protected local storage."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:220
+#: qml/backend/AjaxController.qml:278
 msgid "Stored plaintext session migration failed."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:257
+#: qml/backend/AjaxController.qml:315
 msgid "No stored protected session."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:273
+#: qml/backend/AjaxController.qml:331
 msgid "Stored Ajax session"
 msgstr ""
 
-#: qml/backend/AjaxController.qml:276
+#: qml/backend/AjaxController.qml:334
 msgid "Saved QR session loaded from protected local storage."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:277
+#: qml/backend/AjaxController.qml:335
 msgid "Stored opaque token loaded from protected local storage."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:279
+#: qml/backend/AjaxController.qml:337
 msgid "Stored session and space restored."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:279
+#: qml/backend/AjaxController.qml:337
 msgid "Stored session restored. Looking up Ajax space."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:280
-msgid "Stored session restored."
-msgstr ""
-
-#: qml/backend/AjaxController.qml:291
+#: qml/backend/AjaxController.qml:348
 msgid "Login blocked: session/token field is empty."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:297
+#: qml/backend/AjaxController.qml:354
 msgid "Manual session"
 msgstr ""
 
-#: qml/backend/AjaxController.qml:308
+#: qml/backend/AjaxController.qml:365
 msgid "Manual Ajax session"
 msgstr ""
 
-#: qml/backend/AjaxController.qml:310 qml/pages/RemotePage.qml:739
+#: qml/backend/AjaxController.qml:367
 msgid "Developer session"
 msgstr ""
 
-#: qml/backend/AjaxController.qml:311
+#: qml/backend/AjaxController.qml:368
 msgid "Opaque token kept for this run only."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:311
+#: qml/backend/AjaxController.qml:368
 msgid "Opaque token saved in protected local storage."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:312
+#: qml/backend/AjaxController.qml:369
 msgid "Developer session accepted."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:321
-msgid "Developer session active for this run."
-msgstr ""
-
-#: qml/backend/AjaxController.qml:321
-msgid "Developer session saved locally."
-msgstr ""
-
-#: qml/backend/AjaxController.qml:331 qml/backend/AjaxController.qml:333
+#: qml/backend/AjaxController.qml:394
 msgid "Stored protected session cleared."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:340
+#: qml/backend/AjaxController.qml:409
 msgid "Not started"
 msgstr ""
 
-#: qml/backend/AjaxController.qml:360
+#: qml/backend/AjaxController.qml:429
 msgid "Logged out from current session."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:361
-msgid "Current session cleared from memory."
-msgstr ""
-
-#: qml/backend/AjaxController.qml:366
+#: qml/backend/AjaxController.qml:434
 msgid "%1 blocked: not authenticated."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:370
+#: qml/backend/AjaxController.qml:438
 msgid "%1 blocked: no verified hub/space selected."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:384 qml/pages/RemotePage.qml:38
+#: qml/backend/AjaxController.qml:453 qml/backend/AjaxController.qml:471
+msgid "Today"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:570
+msgid "Panic alarm"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:573
+msgid "Fire alarm"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:576
+msgid "Intrusion alarm"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:578 qml/pages/RemotePage.qml:95
+msgid "Alarm"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:595
+msgid "%1: %2"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:622
+msgid "Loaded %1 Ajax messages."
+msgstr ""
+
+#: qml/backend/AjaxController.qml:623
+msgid "No Ajax messages returned."
+msgstr ""
+
+#: qml/backend/AjaxController.qml:905 qml/pages/RemotePage.qml:1451
+msgid "Name"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:906 qml/pages/RemotePage.qml:1029
+#: qml/pages/RemotePage.qml:1459 qml/pages/RemotePage.qml:1608
+msgid "Room"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:907
+msgid "Room ID"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:908
+msgid "Device ID"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:909
+msgid "Type"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:910
+msgid "Service state"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:911
+msgid "Device color"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:912
+msgid "Box type"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:913
+msgid "Chime status"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:914
+msgid "Restore required"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:915
+msgid "Sorting key"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:916
+msgid "Channels"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:917
+msgid "Active channels"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:918
+msgid "Video edge type"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:919
+msgid "Temperature"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:920
+msgid "Signal strength"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:921
+msgid "Connection"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:922
+msgid "Battery level"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:923
+msgid "Lock/cover"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:924 qml/pages/RemotePage.qml:1493
+#: qml/pages/RemotePage.qml:1610
+msgid "Sensitivity"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:925 qml/pages/RemotePage.qml:1508
+msgid "Correlation signal processing"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:926 qml/pages/RemotePage.qml:1526
+msgid "Always active"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:927
+msgid "Disable"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:928
+msgid "One-time disable"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:929 qml/pages/RemotePage.qml:1571
+#: qml/pages/RemotePage.qml:1609
+msgid "Operating mode"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:930
+msgid "Arm when night mode is enabled"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:931 qml/pages/RemotePage.qml:1480
+msgid "LED indication of alarm"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:932 qml/pages/RemotePage.qml:1551
+msgid "If movement is detected"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:933
+msgid "Interaction disabled"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:934
+msgid "Device index"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:935
+msgid "Displayed device index"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:936
+msgid "Marketing ID"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:980 qml/pages/RemotePage.qml:1493
+#: qml/pages/RemotePage.qml:1571
+msgid "Not available"
+msgstr ""
+
+#: qml/backend/AjaxController.qml:1012 qml/pages/RemotePage.qml:101
 msgid "Armed"
 msgstr ""
 
-#: qml/backend/AjaxController.qml:387 qml/pages/RemotePage.qml:41
+#: qml/backend/AjaxController.qml:1015 qml/pages/RemotePage.qml:104
 msgid "Disarmed"
 msgstr ""
 
-#: qml/backend/AjaxController.qml:390 qml/backend/AjaxController.qml:409
-#: qml/backend/AjaxController.qml:545 qml/pages/RemotePage.qml:44
+#: qml/backend/AjaxController.qml:1018 qml/backend/AjaxController.qml:1037
+#: qml/backend/AjaxController.qml:1211 qml/pages/RemotePage.qml:107
 msgid "Night mode"
 msgstr ""
 
-#: qml/backend/AjaxController.qml:393
+#: qml/backend/AjaxController.qml:1021
 msgid "Partially armed"
 msgstr ""
 
-#: qml/backend/AjaxController.qml:396
+#: qml/backend/AjaxController.qml:1024
 msgid "Unknown"
 msgstr ""
 
-#: qml/backend/AjaxController.qml:403 qml/backend/AjaxController.qml:525
-#: qml/pages/RemotePage.qml:302
+#: qml/backend/AjaxController.qml:1031 qml/backend/AjaxController.qml:1189
+#: qml/pages/RemotePage.qml:671
 msgid "Arm"
 msgstr ""
 
-#: qml/backend/AjaxController.qml:406 qml/backend/AjaxController.qml:535
-#: qml/pages/RemotePage.qml:340
+#: qml/backend/AjaxController.qml:1034 qml/backend/AjaxController.qml:1200
+#: qml/pages/RemotePage.qml:714
 msgid "Disarm"
 msgstr ""
 
-#: qml/backend/AjaxController.qml:412 qml/backend/AjaxController.qml:555
-#: qml/pages/RemotePage.qml:410
+#: qml/backend/AjaxController.qml:1040 qml/backend/AjaxController.qml:1222
+#: qml/pages/RemotePage.qml:792
 msgid "Panic"
 msgstr ""
 
-#: qml/backend/AjaxController.qml:415
+#: qml/backend/AjaxController.qml:1043
 msgid "State"
 msgstr ""
 
-#: qml/backend/AjaxController.qml:465
+#: qml/backend/AjaxController.qml:1094
 msgid "Ajax space"
 msgstr ""
 
-#: qml/backend/AjaxController.qml:475 qml/backend/AjaxController.qml:476
+#: qml/backend/AjaxController.qml:1104
 msgid "Selected Ajax space: %1."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:482
+#: qml/backend/AjaxController.qml:1120
 msgid "Space discovery blocked: no Ajax session."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:487
+#: qml/backend/AjaxController.qml:1125
 msgid "Status refresh skipped: Ajax request already running."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:494
+#: qml/backend/AjaxController.qml:1132
 msgid "Looking up Ajax space."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:516
+#: qml/backend/AjaxController.qml:1180
 msgid "%1 blocked: no Ajax space selected yet."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:526
+#: qml/backend/AjaxController.qml:1190
 msgid "Sending Arm command."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:536
+#: qml/backend/AjaxController.qml:1201
 msgid "Sending Disarm command."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:546
+#: qml/backend/AjaxController.qml:1212
 msgid "Sending Night mode command."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:556
+#: qml/backend/AjaxController.qml:1223
 msgid "Sending Panic command."
 msgstr ""
 
-#: qml/backend/AjaxController.qml:564
-msgid "Showing local messages. Ajax event log endpoint is not implemented yet."
+#: qml/backend/AjaxController.qml:1233
+msgid "Messages blocked: no Ajax space selected."
 msgstr ""
 
-#: qml/pages/RemotePage.qml:35
+#: qml/backend/AjaxController.qml:1239
+msgid "Messages refresh skipped: Ajax request already running."
+msgstr ""
+
+#: qml/backend/AjaxController.qml:1246
+msgid "Loading Ajax messages."
+msgstr ""
+
+#: qml/pages/RemotePage.qml:98
 msgid "Panic sending"
 msgstr ""
 
-#: qml/pages/RemotePage.qml:65 qml/pages/RemotePage.qml:546
-msgid "Messages"
-msgstr ""
-
-#: qml/pages/RemotePage.qml:101
+#: qml/pages/RemotePage.qml:376
 msgid "Alarm Remote"
 msgstr ""
 
-#: qml/pages/RemotePage.qml:127
-msgid "QR"
-msgstr ""
-
-#: qml/pages/RemotePage.qml:168
-msgid "Pull to refresh"
-msgstr ""
-
-#: qml/pages/RemotePage.qml:168
+#: qml/pages/RemotePage.qml:426
 msgid "Refreshing"
 msgstr ""
 
-#: qml/pages/RemotePage.qml:254
-msgid "ONLINE"
+#: qml/pages/RemotePage.qml:427
+msgid "Release to refresh"
 msgstr ""
 
-#: qml/pages/RemotePage.qml:255
-msgid "OFFLINE"
+#: qml/pages/RemotePage.qml:428
+msgid "Pull to refresh"
 msgstr ""
 
-#: qml/pages/RemotePage.qml:266
+#: qml/pages/RemotePage.qml:602
 msgid "Updated"
 msgstr ""
 
-#: qml/pages/RemotePage.qml:378
+#: qml/pages/RemotePage.qml:627
+msgid "ONLINE"
+msgstr ""
+
+#: qml/pages/RemotePage.qml:628
+msgid "OFFLINE"
+msgstr ""
+
+#: qml/pages/RemotePage.qml:757
 msgid "Night"
 msgstr ""
 
-#: qml/pages/RemotePage.qml:410
+#: qml/pages/RemotePage.qml:792
 msgid "Keep holding"
 msgstr ""
 
-#: qml/pages/RemotePage.qml:418
+#: qml/pages/RemotePage.qml:800
 msgid "hold"
 msgstr ""
 
-#: qml/pages/RemotePage.qml:456
+#: qml/pages/RemotePage.qml:838
 msgid "Spaces"
 msgstr ""
 
-#: qml/pages/RemotePage.qml:459 qml/pages/RemotePage.qml:549
-#: qml/pages/RemotePage.qml:607
+#: qml/pages/RemotePage.qml:841 qml/pages/RemotePage.qml:987
+#: qml/pages/RemotePage.qml:1065 qml/pages/RemotePage.qml:1343
+#: qml/pages/RemotePage.qml:1613 qml/pages/RemotePage.qml:1676
+#: qml/pages/RemotePage.qml:1879
 msgid "Close"
 msgstr ""
 
-#: qml/pages/RemotePage.qml:604
+#: qml/pages/RemotePage.qml:984
+msgid "Rooms"
+msgstr ""
+
+#: qml/pages/RemotePage.qml:1047
+msgid "No rooms loaded"
+msgstr ""
+
+#: qml/pages/RemotePage.qml:1062
+msgid "Devices"
+msgstr ""
+
+#: qml/pages/RemotePage.qml:1175
+msgid "Ajax device"
+msgstr ""
+
+#: qml/pages/RemotePage.qml:1183
+msgid "No room"
+msgstr ""
+
+#: qml/pages/RemotePage.qml:1307
+msgid "No devices loaded"
+msgstr ""
+
+#: qml/pages/RemotePage.qml:1324
+msgid "Device details"
+msgstr ""
+
+#: qml/pages/RemotePage.qml:1327
+msgid "Done"
+msgstr ""
+
+#: qml/pages/RemotePage.qml:1327
+msgid "Edit"
+msgstr ""
+
+#: qml/pages/RemotePage.qml:1332
+msgid "Device setting changes are not sent to Ajax yet."
+msgstr ""
+
+#: qml/pages/RemotePage.qml:1334
+msgid "Hub settings are not implemented yet."
+msgstr ""
+
+#: qml/pages/RemotePage.qml:1335
+msgid "Hub settings"
+msgstr ""
+
+#: qml/pages/RemotePage.qml:1336
+msgid ""
+"Hub editing uses a different Ajax settings model and is not implemented yet. "
+"This page is read-only for the hub."
+msgstr ""
+
+#: qml/pages/RemotePage.qml:1399
+msgid "No device details loaded"
+msgstr ""
+
+#: qml/pages/RemotePage.qml:1442
+msgid "Test mode only. These controls do not save changes to Ajax yet."
+msgstr ""
+
+#: qml/pages/RemotePage.qml:1539
+msgid "Alarm with siren"
+msgstr ""
+
+#: qml/pages/RemotePage.qml:1564
+msgid "Alarm reaction"
+msgstr ""
+
+#: qml/pages/RemotePage.qml:1586
+msgid "Activate when night mode is active"
+msgstr ""
+
+#: qml/pages/RemotePage.qml:1629
+msgid "Entry/exit"
+msgstr ""
+
+#: qml/pages/RemotePage.qml:1629
+msgid "Follower"
+msgstr ""
+
+#: qml/pages/RemotePage.qml:1629
+msgid "Immediately"
+msgstr ""
+
+#: qml/pages/RemotePage.qml:1630
+msgid "High"
+msgstr ""
+
+#: qml/pages/RemotePage.qml:1630
+msgid "Low"
+msgstr ""
+
+#: qml/pages/RemotePage.qml:1630
+msgid "Normal"
+msgstr ""
+
+#: qml/pages/RemotePage.qml:1673
+msgid "Messages"
+msgstr ""
+
+#: qml/pages/RemotePage.qml:1861
+msgid "No messages in this filter"
+msgstr ""
+
+#: qml/pages/RemotePage.qml:1876
 msgid "QR login"
 msgstr ""
 
-#: qml/pages/RemotePage.qml:635
+#: qml/pages/RemotePage.qml:1907
 msgid "QR session"
 msgstr ""
 
-#: qml/pages/RemotePage.qml:701
+#: qml/pages/RemotePage.qml:1973
 msgid "No active QR"
 msgstr ""
 
-#: qml/pages/RemotePage.qml:719
-msgid ""
-"Scan this QR from an already logged-in Ajax app. The approved session is "
-"saved in protected local storage until you clear it or Ajax revokes it."
-msgstr ""
-
-#: qml/pages/RemotePage.qml:727
+#: qml/pages/RemotePage.qml:1994
 msgid "Restart QR login"
 msgstr ""
 
-#: qml/pages/RemotePage.qml:727
+#: qml/pages/RemotePage.qml:1994
 msgid "Start QR login"
 msgstr ""
 
-#: qml/pages/RemotePage.qml:748
-msgid "API base URL"
+#: qml/pages/RemotePage.qml:2066
+msgid "OK"
 msgstr ""
 
-#: qml/pages/RemotePage.qml:755
-msgid "System name"
-msgstr ""
-
-#: qml/pages/RemotePage.qml:762
-msgid "Opaque session/token"
-msgstr ""
-
-#: qml/pages/RemotePage.qml:778
-msgid "Remember token in protected local storage"
-msgstr ""
-
-#: qml/pages/RemotePage.qml:786
-msgid ""
-"Protected local storage is used for development sessions. Do not paste "
-"production secrets unless you accept that local-device risk."
-msgstr ""
-
-#: qml/pages/RemotePage.qml:795
-msgid "Login with session token"
-msgstr ""
-
-#: qml/pages/RemotePage.qml:807
-msgid "Restore saved session"
-msgstr ""
-
-#: qml/pages/RemotePage.qml:818
-msgid "Clear saved session"
-msgstr ""
-
-#: qml/pages/RemotePage.qml:826
-msgid "Logout current session"
-msgstr ""
-
-#: qml/pages/RemotePage.qml:865
+#: qml/pages/RemotePage.qml:2112
 msgid "Trigger panic alarm?"
 msgstr ""
 
-#: qml/pages/RemotePage.qml:873
+#: qml/pages/RemotePage.qml:2120
 msgid ""
 "This action is deliberately guarded. On a connected Ajax session it sends a "
 "live panic alarm."
 msgstr ""
 
-#: qml/pages/RemotePage.qml:881
+#: qml/pages/RemotePage.qml:2128
 msgid "Trigger panic"
 msgstr ""
 
-#: qml/pages/RemotePage.qml:892
+#: qml/pages/RemotePage.qml:2139
 msgid "Cancel"
 msgstr ""

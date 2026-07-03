@@ -1,5 +1,11 @@
 <RCC>
     <qresource prefix="/assets">
         <file>logo.svg</file>
+        <file>sounds/panic.ogg</file>
+        <file>sounds/intrusion.ogg</file>
+        <file>sounds/fire.ogg</file>
+        <file>sounds/panic.wav</file>
+        <file>sounds/intrusion.wav</file>
+        <file>sounds/fire.wav</file>
     </qresource>
 </RCC>
